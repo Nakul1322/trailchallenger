@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%- title %></title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <style type="text/css">
+            /* / new-css / */
+            p,li,ul,ol,span {
+                font-family: 'Lato', sans-serif!important;
+                font-style: normal !important;
+                font-size: 16px !important;
+            }
+            b,strong {
+                font-family: 'Lato', sans-serif!important;
+                font-style: normal !important;
+                font-size: 16px !important;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-family: 'Lato', sans-serif!important;
+                font-style: normal !important;
+                font-weight: bold !important;
+                vertical-align: Top !important;
+                color: #595763;
+            }
+            body {
+                background-image: linear-gradient(#ffffff, #ffffff) !important;
+                /* color: #595763 !important;  */
+                color: #6c757dd6 !important;
+                min-height: 100vh;
+            }
+            img {
+                border-radius: 9px;
+                width: 100% !important;
+            }
+            @media only screen and (max-width: 414px) {
+                img {
+                    width: 100% !important;
+                    max-height: 260px;
+                }
+            }
+            blockquote{
+                width:90%;
+                margin:50px auto;
+                font-style:italic;
+                color: #6c757dd6;
+                padding:2px 8px 2px 20px;
+                border-left: 4px solid #ccc ;
+                line-height:1.6;
+                position: relative;
+                background:transparent;
+            }
+            blockquote::after{
+                content: '';
+            }
+            blockquote p{
+                display:block;
+                color:#6c757dd6 !important;
+                font-style: italic!important;
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <div><%- html_data.description %></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
