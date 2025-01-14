@@ -46,17 +46,6 @@ TrailChallenger is a platform designed to provide an interactive and seamless ex
 
 ---
 
-## **API Documentation**  
-The API endpoints and usage details are available in the [Postman Collection](https://www.getpostman.com/collections/496a6dd6e19daaf7418e).  
-
----
-
-## **Design and Documentation**  
-- **UI Design:** [View Design on Sketch](https://www.sketch.com/s/595d3f8d-8b04-4208-a3cc-cae60d2fbebe)  
-- **Project Brief:** [View Project Brief](https://docs.google.com/document/d/1ninV6NLIdkR3LHS4epbEedmfRcT_GmRESDinboRL738)  
-
----
-
 ## **Contributing**  
 We welcome contributions! Please follow these steps:  
 1. Fork the repository.  
