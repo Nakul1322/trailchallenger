@@ -1,44 +1,76 @@
-# TrailChallenger-Backend
+# **TrailChallenger-Backend**  
+**A scalable Node.js backend powering the Trail Challenger project.**
 
-Backend Node JS Trail Challenger project
+---
 
-code deploy(NGINX)
+## **Project Overview**  
+TrailChallenger is a platform designed to provide an interactive and seamless experience for trail enthusiasts. This repository contains the backend code, developed with Node.js, to manage core functionalities, API endpoints, and integrations.
 
-Go to the folder where your .pem file exists and open terminal
-paste sudo ssh -i trailChallenger.pem ubuntu@ip-172-31-85-156: inside your terminal
-cd /var/www/TrailChallenger-Backend navigate here
-take pull
-sudo pm2 restart 0
-In case you want to check logs use sudo pm2 log 0
+### **Key Features**  
+- RESTful API architecture for seamless communication with frontend services.  
+- MongoDB (Atlas) for secure and efficient data management.  
+- Scalable deployment setup with PM2 and NGINX.  
+- Robust environment setup for development and production.  
 
-DB Name
-trailChallenger (MONGO ATLAS)
+---
 
-DESIGN LINKS
-https://www.sketch.com/s/595d3f8d-8b04-4208-a3cc-cae60d2fbebe
+## **Getting Started**  
 
-Project Breif 
-https://docs.google.com/document/d/1ninV6NLIdkR3LHS4epbEedmfRcT_GmRESDinboRL738
+### **Deployment Instructions**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/TrailChallenger-Backend.git
+   ```  
+2. Navigate to the project directory:  
+   ```bash
+   cd TrailChallenger-Backend
+   ```  
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```  
+4. Configure environment variables:  
+   - Create a `.env` file based on the `.env.example` template.  
+   - Add the required environment variables like database credentials, API keys, etc.
 
-Dev URL
-http://dev.trailchallenger.support/api
+5. Start the application:  
+   ```bash
+   npm start
+   ```  
 
-Dev Public IP: 43.198.29.23
+---
 
-Prod Public IP:18.167.250.32
+## **Database**  
+- **Type:** MongoDB (Atlas)  
+- Ensure you have the correct database connection string in your `.env` file.  
 
-Prod URL
-https://trailchallenger.support/api
+---
 
-Admin Panel(DEV)
-http://dev.trailchallenger.support
+## **API Documentation**  
+The API endpoints and usage details are available in the [Postman Collection](https://www.getpostman.com/collections/496a6dd6e19daaf7418e).  
 
-Admin Panel(PROD)
-https://trailchallenger.support
+---
 
-POSTMAN APIs
-https://www.getpostman.com/collections/496a6dd6e19daaf7418e
+## **Design and Documentation**  
+- **UI Design:** [View Design on Sketch](https://www.sketch.com/s/595d3f8d-8b04-4208-a3cc-cae60d2fbebe)  
+- **Project Brief:** [View Project Brief](https://docs.google.com/document/d/1ninV6NLIdkR3LHS4epbEedmfRcT_GmRESDinboRL738)  
 
-Admin(DEV) Credentials
-trailchallenger@yopmail.com
-Password: 12345678
+---
+
+## **Contributing**  
+We welcome contributions! Please follow these steps:  
+1. Fork the repository.  
+2. Create a new branch (`feature/your-feature`).  
+3. Commit your changes.  
+4. Submit a pull request.  
+
+---
+
+## **License**  
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+### **Notes for Public Repositories**  
+1. Ensure your `.env` file is added to `.gitignore` to prevent sensitive information from being exposed.  
+2. Avoid committing credentials, IPs, or private URLs.  
